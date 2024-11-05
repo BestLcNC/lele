@@ -1,0 +1,23 @@
+{
+  "greeting": "Hello",
+  "name": "乐乐",
+  "greetingText": "很高兴能再次庆祝你的生日",
+  "wishText": "朱颜长似，头上花枝，岁岁年年。愿君青丝不老，岁岁皆欢。",
+  "imagePath": "img/lydia2.png",
+  "text1": "今天是你的生日啊!!! :D",
+  "textInChatBox": "非常非常非常诚挚地祝你生日快乐！！！很多很多的快乐……",
+  "sendButtonLabel": "发送",
+  "text2": "是不是有点惊喜",
+  "text3": "在今天这个特殊的日子",
+  "text4": "一定要开心快乐！！！",
+  "text4Adjective": "20241113",
+  "text5Entry": "除了开心，",
+  "text5Content": "还是开心！",
+  "smiley": ":)",
+  "bigTextPart1": "所",
+  "bigTextPart2": "以",
+  "wishHeading": "祝乐乐生日快乐",
+  "outroText": "我希望你喜欢这个小小的惊喜!",
+  "replayText": "如果你喜欢的话，可以再看一次哦!",
+  "outroSmiley": ":)"
+}

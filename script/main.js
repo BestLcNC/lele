@@ -18,6 +18,8 @@ const fetchData = () => {
         // Check if the iteration is over
         // Run amimation if so
         if ( dataArr.length === dataArr.indexOf(customData) + 1 ) {
+          document.querySelector("#startButton").addEventListener("click", () => {
+            document.querySelector(".startSign").style.display = "none"
           animationTimeline();
         } 
       });

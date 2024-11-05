@@ -31,9 +31,23 @@ let audio = null
 document.addEventListener("DOMContentLoaded", () => {
   audio = new Audio("music/bgMusic.mp3")
   audio.preload = "auto"
-  audio.play()
 })
+const startbutton = document.getElementById('startButton')
+let isPlaying = false // 初始状态为未播放
 
+startbutton.addEventListener('click', () => {
+  isPlaying = !isPlaying // 切换播放状态
+
+  if (isPlaying) {
+    // 如果当前是播放状态，则开始播放音频并更新按钮样式
+    audio.play()
+    startbutton.classList.add('playing')
+  } else {
+    // 如果当前是暂停状态，则暂停音频并更新按钮样式
+    audio.pause()
+    startbutton.classList.remove('playing')
+  }
+})
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually

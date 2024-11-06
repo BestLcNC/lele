@@ -35,6 +35,7 @@ let audio = null
 document.addEventListener("DOMContentLoaded", () => {
   audio = new Audio("music/bgMusic.mp3")
   audio.preload = "auto"
+  audio.loop = true
 })
 
 const startbutton = document.getElementById('startButton')
